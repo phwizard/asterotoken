@@ -1,7 +1,7 @@
 # asterotoken
 
 
-###Purpose of the project###
+### Purpose of the project
 Asterotoken has been conceived at ETH San Francisco Hackathon on 5th October 2018.
 
 We want to join others such as Elon Musk who are striving to make humans interplanetary species.
