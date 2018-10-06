@@ -46,7 +46,9 @@ The proceeds from the sale are sent towards holders of mission-specific asteroto
 The positive feedback loop (investors and scientists getting crazy rich :) is going to motivate more investors and operators join the space mining race.
 
 
-### Smart contract logic (COLLECTING FUNDS)
+### Smart contracts logic 
+
+#### COLLECTING FUNDS
 
 ##### Parent contract
 (template for all mission contracts)
@@ -57,16 +59,15 @@ The positive feedback loop (investors and scientists getting crazy rich :) is go
 1. Investor sends ETH
 2. Contract issues mission-specific ERC20 tokens (Asterotoken) to Investor's Ethereum wallet (same of tokens is sent as much as ETH received). 
 
-### Smart contract logic (TAKING VOTE, RELEASING FUNDS TO SELECTED OPERATOR)
-This is triggered at Step #4 (after 100% funding is collected and there are bids from Operators). 
+#### TAKING VOTE, RELEASING FUNDS TO SELECTED OPERATOR
+This is used at Step #4 (after 100% funding is collected and there are bids from Operators). 
 
 1. Accept votes from Mission-specific token holders.
 2. ???
 3. Contract releases whole payment to the bidder who has received most votes.
 
-
-### PROFIT SHARING
-This is triggered at Step #6. 
+#### PROFIT SHARING
+This is used at Step #6. 
 
 Option A. 
 Profits (in fiat) are distributed off-chain directly to bank accounts of mission specific Astrotoken holders.
