@@ -78,3 +78,9 @@ Profits (in fiat) are distributed off-chain directly to bank accounts of mission
 Option B.
 Profits (in ETH) are sent to smart contract. 
 Mission-specific Astrotoken holders send their astrotokens to the contact and recieve back their share of profits.
+
+
+
+### Website
+
+![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/Astero_Homepage.jpg "homepage graphics")
