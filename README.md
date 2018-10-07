@@ -71,7 +71,7 @@ Has link to Mission ID, external Legal Prose document signed between parties and
 This is used at Step #4 (after 100% funding is collected and there are bids from Operators). 
 
 1. Accept votes from Mission-specific token holders.
-2. ???
+2. Voting deadline happens.
 3. Contract releases whole payment to the bidder who has received most votes.
 
 #### PROFIT SHARING
