@@ -1,3 +1,4 @@
+![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/astero_header.png "header graphics")
 # asterotoken
 
 ### Purpose of the project
@@ -54,9 +55,14 @@ The positive feedback loop (investors and scientists getting crazy rich :) is go
 
 ##### Parent contract
 (template for all mission contracts)
+generates mission-specific Child contracts when each new mission funding is initiated.
 
 ##### Child contract (mission-specific) 
+Responsible for collecting funds and issuing tokens for each specific mission.
+Has link to Mission ID, external Legal Prose document signed between parties and checksum of legal prose document.
 (spawned via call from backend after mission is into Funding stage, and has Mission UUID hard-coded into it)
+
+![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/contract.png "contract graphics")
 
 1. Investor sends ETH
 2. Contract issues mission-specific ERC20 tokens (Asterotoken) to Investor's Ethereum wallet (same of tokens is sent as much as ETH received). 
@@ -65,7 +71,7 @@ The positive feedback loop (investors and scientists getting crazy rich :) is go
 This is used at Step #4 (after 100% funding is collected and there are bids from Operators). 
 
 1. Accept votes from Mission-specific token holders.
-2. ???
+2. Voting deadline happens.
 3. Contract releases whole payment to the bidder who has received most votes.
 
 #### PROFIT SHARING
@@ -79,18 +85,8 @@ Profits (in ETH) are sent to smart contract.
 Mission-specific Astrotoken holders send their astrotokens to the contact and recieve back their share of profits.
 
 
+### Website
 
-### User Interface - Home screen
+And this is how it looks:
 
-[ LOGO  ] 
-
-[ Project name ] [ Target Asteroid ] [ Launch date - Retrieval date ] [ Funded % ] [ Funded (Backers) ] [Estimated ROI ] [ Description  ]  
-
-Vesta exploration | Vesta | 5th Oct 2020 - 17th March 2025 | 78% funded | 235 backers | 300x | Vesta exploration is brought to you by the same team who have planned the successul Ceres mission bringing as much as 525x return on investments to all backers. 
-
-Ryugu mining | Ryugu | 10th March 2021 - 24th July 2028 | 45% funded | 15 backers | 750x | Ryugu mining is a repeat mission into Ryugu to mine for more precious metals. This time we have the backing space geology data that suggest we get as much as 750x ROI. The only risk factor is non-regulated mining activities taking place in parallel to our mission.
-
-Nereus discovery | Nereus | 9th June 2025 - 5th September 2035 | 5% funded | 1 backer | 880x | This is a first ever mission to Nereus prepared for you by MIT team. We have used sophisticated orbital trajectories, gravitational maneouvres and solar sail propulsion in order to achieve the projected ROI of 880x.
-
-
-UI could also have "NEW & NOTEWORTHY, ALMOST THERE, POPULAR" tabs.
+![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/Astero_Homepage.jpg "homepage graphics")
