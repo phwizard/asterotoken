@@ -1,7 +1,5 @@
+![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/astero_header.png "header graphics")
 # asterotoken
-
-!(https://github.com/phwizard/asterotoken/blob/master/designs/Astero_Homepage.jpg "header graphics")
-
 
 ### Purpose of the project
 Asterotoken has been conceived at ETH San Francisco Hackathon on 5th October 2018.
