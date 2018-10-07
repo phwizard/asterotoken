@@ -83,4 +83,6 @@ Mission-specific Astrotoken holders send their astrotokens to the contact and re
 
 ### Website
 
+And this is how it looks:
+
 ![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/Astero_Homepage.jpg "homepage graphics")
