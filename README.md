@@ -55,9 +55,14 @@ The positive feedback loop (investors and scientists getting crazy rich :) is go
 
 ##### Parent contract
 (template for all mission contracts)
+generates mission-specific Child contracts when each new mission funding is initiated.
 
 ##### Child contract (mission-specific) 
+Responsible for collecting funds and issuing tokens for each specific mission.
+Has link to Mission ID, external Legal Prose document signed between parties and checksum of legal prose document.
 (spawned via call from backend after mission is into Funding stage, and has Mission UUID hard-coded into it)
+
+![alt text](https://github.com/phwizard/asterotoken/blob/master/designs/contract.png "contract graphics")
 
 1. Investor sends ETH
 2. Contract issues mission-specific ERC20 tokens (Asterotoken) to Investor's Ethereum wallet (same of tokens is sent as much as ETH received). 
@@ -78,7 +83,6 @@ Profits (in fiat) are distributed off-chain directly to bank accounts of mission
 Option B.
 Profits (in ETH) are sent to smart contract. 
 Mission-specific Astrotoken holders send their astrotokens to the contact and recieve back their share of profits.
-
 
 
 ### Website
